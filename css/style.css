@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .general{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transition-duration: .5s;
+}
+a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+header .general a:hover{
+   color: #c6a278;
+}
+header .general a i:hover{
+    color: #c6a278;
+ }
+header .general .third{
+    text-align: end;
+    position: relative;
+}
+header .general .third p{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 11rem;
+    background-color: black;
+    color: white;
+    border-radius: 20rem;
+    font-size: 11px;
+    padding: 0px 5px;
+}
+header .general .third p:hover{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 11rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20rem;
+    font-size: 11px;
+    padding: 0px 5px;
+}
+header .general .third a{
+    padding-left: 1rem;
+}
+header .general .second{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    position: relative;
+
+}
+#first a{
+        text-align: start;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+}
+
+header .general .third .menu{
+    display: none;
+}
+header .general .third i{
+    color: rgb(51, 51, 51);
+}
+header .general .third span{
+    color: rgb(51, 51, 51);
+}
+#first{
+    background-image:url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#first .container .general{
+    padding: 15rem 0rem;
+}
+#first .container .general h5{
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+#first .container .general p{
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-right: 38rem;
+}
+
+#first .container .general h2{
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;;
+    font-weight: 600;
+    line-height: 74.25px;
+    font-size: 66px;
+    color: white;
+    padding-right: 33rem;
+}
+#first .container .general .exp a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+#first .container .general .exp i{
+   color: white;
+}
+#first .container .general .exp{
+    text-align: center;
+    background-color: rgb(199, 161, 122);
+    padding: 20px 50px;
+    display: inline;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+#first .container .general .exp:hover{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    padding: 20px 50px;
+    display: inline;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+}
+.subMenu1 li{
+    padding-bottom: 1rem;
+}
+.subMenu1{
+    position: absolute;
+    top: 8.5rem;
+    left: 17rem;
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;
+    list-style: none;
+     transition-duration: 1s;
+     padding: 1rem 7rem 0rem 2rem;
+
+}
+
+.ulList{
+    visibility: visible;
+    opacity: 0;
+    position: absolute;
+    top: 8.5rem;
+    left: 24rem;
+    background-color: white;
+    list-style: none;
+    transition-duration: 1s;
+}
+.subMenu3{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 8.5rem;
+    left: 31rem;
+    background-color: white;
+    list-style: none;
+    transition-duration: 1s;
+}
+.subMenu4{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 8.5rem;
+    left: 38rem;
+    background-color: white;
+    list-style: none;
+    transition-duration: 1s;
+}
+.firstBar:hover .subMenu1{
+    position: absolute;
+    top: 6.5rem;
+    left: 17rem;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    list-style: none;
+    padding: 1rem 7rem 0rem 2rem;
+
+}
+.secondBar:hover .ulList{
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 6.5rem;
+    left: 24rem;
+    background-color: white;
+    list-style: none;
+}
+.thirdBar:hover .subMenu3{
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 6.5rem;
+    left: 31rem;
+    background-color: white;
+    list-style: none;
+}
+.BlogSection:hover .subMenu4{
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 6.5rem;
+    left: 38rem;
+    background-color: white;
+    list-style: none;
+}
+@media(max-width:576px){
+    header .general .second{
+        display: none;
+    }
+    header .general .third .menu{
+        display: inline-block;
+        padding-left: 1rem;
+
+    }
+    header .general .third .menu i{
+        color: rgb(51, 51, 51);
+        font-size: 16p;
+
+    }
+    header .general .third p{
+        bottom: 0.2rem;
+    left: 14rem;
+    }
+    #first .container .general p{
+    padding-right: 7rem;
+    margin-bottom: 30px;
+    }
+    #first .container .general h2{
+    padding-right: 17rem;
+    font-size: 30px;
+    line-height: 35.25px;
+
+    }
+    #first .container .general .exp{
+        padding: 10px 20px;
+    }
+    #first .container .general{
+        padding: 3rem 0rem;
+    }
+}
