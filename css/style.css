@@ -3,255 +3,1071 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header .general{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    transition-duration: .5s;
-}
-a{
-    text-decoration: none;
-    color: rgb(51, 51, 51);
-}
-header .general a:hover{
-   color: #c6a278;
-}
-header .general a i:hover{
-    color: #c6a278;
- }
-header .general .third{
-    text-align: end;
-    position: relative;
-}
-header .general .third p{
-    position: absolute;
-    bottom: 0.2rem;
-    left: 11rem;
-    background-color: black;
-    color: white;
-    border-radius: 20rem;
-    font-size: 11px;
-    padding: 0px 5px;
-}
-header .general .third p:hover{
-    position: absolute;
-    bottom: 0.2rem;
-    left: 11rem;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    border-radius: 20rem;
-    font-size: 11px;
-    padding: 0px 5px;
-}
-header .general .third a{
-    padding-left: 1rem;
-}
-header .general .second{
-    text-align: start;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    padding: 2rem 0rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 7;
+    
 }
 header{
+    overflow: hidden;
+}
+header .general .second ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin: 0;
+}
+header .general .second ul li a{
+   font-size: 16px;
+   font-weight: 400;
+   padding-right: 3rem;
+   font-family: 'Open Sans', sans-serif;
+   color: rgb(51, 51, 51);
+}
+header .general .third ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header .general .third a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+ }
+ header .general ul li a:hover{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7a17a;
+    
+ }
+ header .general .third a:hover{
+     font-size: 16px;
+     font-weight: 400;
+     font-family: 'Open Sans', sans-serif;
+     color: #c7a17a ;
+  }
+  header .general .second ul{
+    padding: 0;
+    width: 0;
+  }
+  header .general .second .g{
+    position: relative;
+    padding: 0;
+  }
+  header .general .second .g ul{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    background-color: white;
+    padding: 0rem 5rem;
+    margin-top: 2.57rem;
+    left: -2.1rem;
+    display: block;
+    padding: 0;
+  }
+  header .general .second .g:hover ul{
+        position: absolute;
+        visibility: visible;
+        opacity: 1;
+        z-index: -1;
+        background-color: white;
+        padding: 0rem 5rem;
+        margin-top: 2.57rem;
+        left: -2.1rem;
+        display: block;
+      
+  }
+  header .general .second .g:hover ul li{
+    padding-bottom: .3rem;
+  }
+  #first{
+    background-image: url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18rem 0rem;
+  }
+  #first h5{
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+  #first h2{
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 66px;
+    font-weight: 600;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 25rem;
+  }
+  #first p{
+    margin-bottom: 50px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 35rem;
+  }
+  #first a{
+    background-color: rgb(199, 161, 122);
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+  }
+  #first a:hover{
+    background-color: #212529;
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+  }
+a{
+    text-decoration: none;
+}
+header .general .third{
+   text-align: right;
+}
+#second{
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+#second .general span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(199, 161, 122);
+    margin-bottom: 15px;
+}
+#second .general{
+    padding-top: 6rem;
+}
+#second .general h2{
+     margin-bottom: 30px;
+     padding-bottom: 18px;
+     position: relative;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     font-size: 40px;
+     padding-top: 15px;
+
+}
+#second .general h2::after{
+   content: '';
+   bottom: 0;
+   left: 0;
+   position: absolute;
+    border: 2px solid #212529;
+    padding-right: 4rem;
+
+}
+#second .general .frt{
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 28px;
+   color:  rgb(51, 51, 51);
+
+}
+#second .general .nd{
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 28px;
+   color:  rgb(51, 51, 51);
+
+}
+#second .general a{
+    padding: 16px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+     font-size: 16px;
+     color: white;
+     background-color: #212529;
+     border-radius: 5rem;
+}
+#second .general a:hover{
+    padding: 16px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+     font-size: 16px;
+     color: white;
+     background-color: #212529;
+    background-color: rgb(199, 161, 122);
+    border-radius: 5rem;
+}
+#third .general{
+    padding-top: 5em;
+}
+#third .general p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25px;
+    color: rgb(199, 161, 122);
+}
+#third .general h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.25px;
+    color: rgb(31, 34, 38);
+}
+#third .general2 h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(31, 34, 38);
+}
+#third .general2 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.5px;
+    color: rgb(51, 51, 51);
+}
+#third .general2 .box{
+    border:1px solid rgb(238, 238, 238);
+    background-color: white;
+    padding: 30px;
+}
+#third .general2{
+    margin-top: 3rem;
+}
+#fourth .general{
+    margin-top: 8rem;
+}
+#fourth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#fourth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+#fourth .general2{
+    margin-top: 3rem;
+}
+#fourth .general2 p{
+    color: rgb(199, 161, 122);
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+#fourth .general2 h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(31, 34, 38);
+    margin-bottom: 1rem;
+
+}
+#fourth .general2 .right{
+    border:1px solid rgb(229, 229, 229);
+    color: rgb(51, 51, 51);
+    padding: 2rem 2.5rem 0rem;
+}
+#fourth .general2 .right form input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid rgb(229, 229, 229);
+}
+#fourth .general2 .right form input:focus{
+    outline: 1px solid rgb(199, 161, 122);
+}
+#fourth .general2 .right form textarea:focus{
+    outline: 1px solid rgb(199, 161, 122);
+}
+
+#fourth .general2 .left iframe{
+    width: 100%;
+}
+#fourth .right textarea{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px 50px; 
+    width: 100%;
+    border: 1px solid rgb(229, 229, 229);
+}
+#fourth .right .sbmt input{
+    background-color: rgb(31, 34, 38);
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+#fifth .general{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+#fifth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#fifth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+
+#fifth .general2 h3 a{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     letter-spacing: .5px;
+     color: rgb(31, 34, 38);
+     transition-duration: .5s;
+}
+#fifth .general2 p{
+    font-size: 14px;
+    line-height: 24.5px;
+    font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     letter-spacing: .5px;
+     color: rgb(51, 51, 51);
+}
+#fifth .general2 span{
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     letter-spacing: .5px;
+     color: rgb(199, 161, 122);
+
+}
+#fifth .general2 .frst{
+   border:1px solid rgb(229, 229, 229);
+   margin-bottom: 2rem;
+   padding: 1rem 2rem;
+}
+#fifth .general2 .scnd{
+    border-left: 1px solid rgb(229, 229, 229);
+ }
+#fifth .general2 h3 a:hover{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     letter-spacing: .5px;
+     color: rgb(199, 161, 122);
+}
+#fifth .general2{
+    position: relative;
+}
+#fifth .general2 .c4{
+    top: 2rem;
+    left: -4rem;
+    position: absolute;
+}
+#fifth .general2 .c2{
+    top: 12rem;
+    left: -4rem;
+    position: absolute;
+}
+#fifth .general2 .c1{
+    bottom: 4rem;
+    left: -3rem;
+    position: absolute;
+}
+#fifth .general2 .rightOpeningTime h4{
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+     font-weight: 500;
+     color: white;
+     background-color: rgb(199, 161, 122);
+     text-align: center;
+}
+#fifth .general2 .rightOpeningTime ul{
+    list-style: none;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(229, 229, 229);
+    border-right: 1px solid rgb(229, 229, 229);
+    border-top: none;
+    margin-top: -8px;
+    
+}
+#fifth .general2 .rightOpeningTime ul li{
+    padding: 1rem .4rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+#sixth .general{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+#sixth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#sixth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+#sixth .navPart button{
+    font-weight: 700;
+}
+#sixth .navPart .navText1 button{
+    font-size: 14px;
+    color: rgb(199, 161, 122);
+}
+#sixth .navPart .navText button{
+    font-size: 14px;
+    color: rgb(31, 34, 38);
+}
+#sixth .navPart .navText2 button{
+    font-size: 14px;
+    color: rgb(31, 34, 38)
+}
+#sixth .navPart .navText button:hover{
+    font-size: 14px;
+    color: rgb(199, 161, 122);
+
+}
+#sixth .navPart .navText2 button:hover{
+    font-size: 14px;
+    color: rgb(199, 161, 122);
+
+}
+#sixth .navPart .navText2{
+    padding-left: 2rem;
+}
+#sixth .navPart button{
+   background-color: white;
+   border: none;
+}
+#sixth .general2 img{
+    width: 100%;
+}
+#sixth .general2{
+    margin-top: 2rem;
+}
+#sixth .general2 .box1{
+    border:1px solid rgb(229, 229, 229);
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    position: relative;
+    transition-duration: .5s;
+}
+#sixth .general2 .box1 .new{
+    color: white;
+    background-color: #c7a17a;
+    border-radius: 20px;
+    display: inline;
+    font-size: 10px;
+    padding: 3px 11px;
+    top: 1rem;
+    left: 1rem;
+    position: absolute;
+}
+#sixth .general2 .box1 .SALE{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    display: inline;
+    font-size: 10px;
+    padding: 3px 11px;
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+}
+.circle{
+    display: none;
+}
+#sixth .general2 .box1:hover .circle{
+    display: block;
+    animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    color: rgb(7, 7, 7);
+    background-color: rgb(253, 251, 251);
+    display: inline;
+    font-size: 10px;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    top: 14rem;
+    right: 0rem;
+    position: absolute;
+}
+@keyframes slide-in-bottom {
+    0% {
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+#sixth .general2 .box1 .PERCENT{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: inline;
+    font-size: 10px;
+    padding: 3px 11px;
+    top: 3rem;
+    right: 1rem;
+    position: absolute;
+}
+.hoverIcons{
+    visibility: hidden;
+    opacity: 0;
+}
+#sixth .general2 .box1:hover .hoverIcons{
+    border:1px solid rgb(229, 229, 229);
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    top: 6rem;
+    left: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+}
+#seventh{
+    background-color: rgb(246, 246, 246);
+}
+#seventh .general{
+    margin-top: 4rem;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}
+#seventh .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#seventh .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+@keyframes flip-in-hor-bottom {
+    0% {
+              transform: rotateX(80deg);
+      opacity: 0;
+    }
+    100% {
+              transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+#sixth .general2 .box1:hover .hoverIcons i{
+    font-size: 17px;
+    color: rgb(75, 78, 82);
+    padding-right: 12px;
+    
+}
+#sixth .general2 .box1:hover .hoverIcons i:hover{
+    font-size: 17px;
+    color: rgb(199, 161, 122);
+    padding-right: 12px;
+    cursor: pointer;
+    
+}
+#sixth .general2 .box1 h5 a{
+    font-size: 15px;
+    color: rgb(31, 34, 38);
+}
+#sixth .general2 .box1 h5{
+   margin-top: 35px;
+}
+#sixth .general2 .box1 p span{
+   font-size: 20px;
+   color: rgb(199, 161, 122);
+ }
+ #sixth .general2 .box1 p i{
+    font-size: 20px;
+    color: yellow;
+  }
+  #seventh .general2{
+    padding-bottom: 5rem;
+  }
+  #seventh .general2 p{
+    padding: 2rem 12rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(51, 51, 51);
+  }
+  #seventh .general2 h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(31, 34, 38);
+    text-transform: uppercase;
+  }
+  #eighth .general{
+    margin-top: 1rem;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}
+#eighth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#eighth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+#eighth .general2 .bx{
+    border: 1px solid rgb(229, 229, 229);
+    padding: 1rem;
     position: relative;
 
 }
-#first a{
-        text-align: start;
-        font-size: 16px;
-        font-weight: 400;
-        font-family: 'Open Sans', sans-serif;
+#eighth .general2 .bx img{
+    width: 100%;
 }
-
-header .general .third .menu{
-    display: none;
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   visibility: hidden;
+   opacity: 0;
+   z-index: 4;
+   background-color: #cbab8b;
+   top: 0;
+   left: 0;
 }
-header .general .third i{
-    color: rgb(51, 51, 51);
+#eighth .general2 .bx:hover .overlay{
+    position: absolute;
+    z-index: 4;
+   width: 100%;
+   height: 100%;
+   visibility: visible;
+   opacity: 0.8;
+   background-color: #cbab8b;
+   top: 0;
+   left: 0;
 }
-header .general .third span{
-    color: rgb(51, 51, 51);
+#eighth .general2 .bx:hover .overlay .iconOnOverlay{
+    position: absolute;
+   top: 12rem;
+   left: 10rem;
+} 
+#eighth .general2 .bx:hover .overlay .iconOnOverlay i{
+    color: white;
+    font-size: 40px;
 }
-#first{
-    background-image:url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#nineth .general{
+    margin-top: 1rem;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
 }
-#first .container .general{
-    padding: 15rem 0rem;
-}
-#first .container .general h5{
-    margin-bottom: 10px;
+#nineth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+#nineth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+#nineth .general2 img{
+    width: 100%;
+
+}
+#nineth .general2 .box{
+    border: 1px solid rgb(229, 229, 229);
+    padding: 1rem;
+}
+#nineth .general2 .box a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(31, 34, 38);
+    transition-duration: .2s;
+
+}
+#nineth .general2 .box a:hover{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(199, 161, 122);
+
+}
+#nineth .general2 .box .bx2{
+   margin-top: 2rem;
+    
+}
+#nineth .general2 .box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.74px;
+    color: rgb(51, 51, 51);
+
+}
+#nineth .general2 .box .btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.74px;
+    color: rgb(51, 51, 51);
+    padding: 10px 2rem;
+    border-radius: 30px;
+    border: 1px solid rgb(229, 229, 229);
+}
+#nineth .general2 .box .paragraph{
+    margin-top: 1rem;
+    border-top: 1px solid rgb(246, 246, 246);
+    padding-top: 1rem;
+
+}
+#tenth{
+   background-image: url(https://htmldemo.net/kofi/kofi/assets/images/footer/footer-2-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-color: #f6f6f6;
+   margin-top: 5rem;
+   padding-bottom: 5rem;
+
+}
+#tenth .general{
+    margin-top: 1rem;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}
+#tenth .general p{
+    color: rgb(51, 51, 51);
     font-size: 16px;
     font-weight: 400;
-    color: white;
-}
-#first .container .general p{
-    margin-bottom: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: white;
-    padding-right: 38rem;
-}
-
-#first .container .general h2{
-    margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;;
-    font-weight: 600;
-    line-height: 74.25px;
-    font-size: 66px;
-    color: white;
-    padding-right: 33rem;
-}
-#first .container .general .exp a{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-}
-#first .container .general .exp i{
-   color: white;
-}
-#first .container .general .exp{
+    line-height: 28px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1rem;
+    padding: 0rem 15rem;
+    margin-bottom: 2rem;
+
+}
+#tenth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+#tenth .general .inputh{
+   width: 50%;
+   margin-left: 16rem;
+
+}
+#tenth .general input{
+    border-color: rgb(229, 229, 229);
+    background-color: #f6f6f6;
+  padding: 1rem 2rem 1rem 1rem;
+  border-radius: 30px;
+}
+#tenth .general input:focus{
+  outline-color:rgb(229, 229, 229) !important;
+
+}
+#tenth .general .inputh{
+  position: relative;
+    
+}
+#tenth .general button{
+    position: absolute;
+    right: 0;
+    top: .0rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
     background-color: rgb(199, 161, 122);
-    padding: 20px 50px;
-    display: inline;
-    border-radius: 5rem;
-    cursor: pointer;
-    transition-duration: 1s;
-    
+    color:white;
+    border-color: rgb(229, 229, 229);
 }
-#first .container .general .exp:hover{
-    text-align: center;
-    background-color: rgb(51, 51, 51);
-    padding: 20px 50px;
-    display: inline;
-    border-radius: 5rem;
-    cursor: pointer;
-    transition-duration: 1s;
-    
+#tenth .general .icons{
+    margin-top: 3rem;
 }
-.subMenu1 li{
-    padding-bottom: 1rem;
+#tenth .general .icons i{
+    padding-left: 2rem;
+    font-size: 20px;
 }
-.subMenu1{
-    position: absolute;
-    top: 8.5rem;
-    left: 17rem;
-    visibility: hidden;
-    opacity: 0;
-    background-color: white;
-    list-style: none;
-     transition-duration: 1s;
-     padding: 1rem 7rem 0rem 2rem;
-
+footer{
+    overflow: hidden;
+    border-top: 1px solid rgb(238, 238, 238);
+    padding: 2rem 0rem 1rem;
+}
+footer p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
 }
 
-.ulList{
-    visibility: visible;
-    opacity: 0;
-    position: absolute;
-    top: 8.5rem;
-    left: 24rem;
-    background-color: white;
-    list-style: none;
-    transition-duration: 1s;
-}
-.subMenu3{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 8.5rem;
-    left: 31rem;
-    background-color: white;
-    list-style: none;
-    transition-duration: 1s;
-}
-.subMenu4{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 8.5rem;
-    left: 38rem;
-    background-color: white;
-    list-style: none;
-    transition-duration: 1s;
-}
-.firstBar:hover .subMenu1{
-    position: absolute;
-    top: 6.5rem;
-    left: 17rem;
-    visibility: visible;
-    opacity: 1;
-    background-color: white;
-    list-style: none;
-    padding: 1rem 7rem 0rem 2rem;
-
-}
-.secondBar:hover .ulList{
-    visibility: visible;
-    opacity: 1;
-    position: absolute;
-    top: 6.5rem;
-    left: 24rem;
-    background-color: white;
-    list-style: none;
-}
-.thirdBar:hover .subMenu3{
-    visibility: visible;
-    opacity: 1;
-    position: absolute;
-    top: 6.5rem;
-    left: 31rem;
-    background-color: white;
-    list-style: none;
-}
-.BlogSection:hover .subMenu4{
-    visibility: visible;
-    opacity: 1;
-    position: absolute;
-    top: 6.5rem;
-    left: 38rem;
-    background-color: white;
-    list-style: none;
-}
-@media(max-width:576px){
+@media (max-width:576px) {
     header .general .second{
         display: none;
     }
-    header .general .third .menu{
-        display: inline-block;
-        padding-left: 1rem;
-
+    #first{
+    padding: 15rem 0rem 11rem;
+    background-position-x: -45rem;
     }
-    header .general .third .menu i{
-        color: rgb(51, 51, 51);
-        font-size: 16p;
-
-    }
-    header .general .third p{
-        bottom: 0.2rem;
-    left: 14rem;
-    }
-    #first .container .general p{
-    padding-right: 7rem;
-    margin-bottom: 30px;
-    }
-    #first .container .general h2{
-    padding-right: 17rem;
+    #first h2{
+    padding-right: 15rem;
     font-size: 30px;
-    line-height: 35.25px;
 
     }
-    #first .container .general .exp{
-        padding: 10px 20px;
+    #first p{
+        padding-right: 13rem;
     }
-    #first .container .general{
-        padding: 3rem 0rem;
+    #first h5{
+        font-size: 16px;
+      }
+      #first p{
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      #second .general h2{
+        font-size: 30px;
+        padding-right: 0rem;
+      }
+      #second .general p{
+        font-size: 10px;
+        line-height: 28px;
+      }
+      #second .general1{
+        flex-direction: column-reverse;
+      }
+      #second .general a{
+        padding: 13px 30px;
+         font-size: 14px;
     }
+    #second .general a:hover{
+        padding: 13px 30px;
+         font-size: 14px;
+    }
+    #third .general p{
+        font-size: 16px;
+    }
+    #third .general h2{
+        font-size: 24px;
+    }
+    #third .general2 p{
+        padding-right: 13rem;
+    }
+    #fourth .general2 .right{
+        padding: 2rem 2rem 0rem;
+    }
+    
+    #fourth .general2 .right form input{
+        padding: 15px 10px;
+    }
+    #fifth .general2 .c4{
+        top: 2rem;
+        left: -4rem;
+        position: absolute;
+    }
+    #fifth .general2 .c2{
+        top: 12rem;
+        left: -4rem;
+        position: absolute;
+    }
+    #fifth .general2 .c1{
+        top: 23rem;
+        left: -3rem;
+        position: absolute;
+    }
+    #sixth .general2 .box1{
+        display: none;
+    }
+    #sixth .general2 .remaining{
+        display: block;
+    }
+    #sixth .general2 .remaining h5 a{
+        font-size: 15px;
+        color: rgb(31, 34, 38);
+    }
+    #sixth .general2 .remaining h5{
+       margin-top: 35px;
+    }
+    #sixth .general2 .remaining p span{
+       font-size: 20px;
+       color: rgb(199, 161, 122);
+     }
+     #sixth .general2 .remaining p i{
+        font-size: 20px;
+        color: yellow;
+      }
+      #sixth .general2 .box1 .new{
+        top: 6rem;
+        left: 1rem;
+    }
+    #sixth .general2 .box1 .SALE{
+        top: 6rem;
+        right: 1rem;
+    }
+    #sixth .general2 .box1 .PERCENT{
+        top: 8rem;
+        right: 1rem;
+    }
+    #sixth .general2 .box1:hover .hoverIcons{
+        top: 20rem;
+        left: 10rem;
+        
+    }
+    #sixth .general2 .box1:hover .circle{
+        top: 30rem;
+        right: 0rem;
+    }
+    #seventh .general{
+        margin-top: 2rem;
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    #seventh .general h2{
+        font-size: 27px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    
+    }
+      #seventh .general2 p{
+        padding: 2rem 0rem;
+      }
+      #eighth .general{
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #eighth .general p{
+        font-size: 15px;
+    }
+    #eighth .general h2{
+        font-size: 27px;
+    
+
+    }
+    #nineth .general{
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #nineth .general p{
+        font-size: 15px;
+    }
+    #nineth .general h2{
+        font-size: 27px;
+    
+        
+    }
+    #nineth .box{
+        display: none;
+    }
+    #nineth .visibleBox{
+        display: block;
+    }
+     #tenth .general{
+         padding-top: 3rem;
+     }
+     #tenth .general p{
+         font-size: 16px;
+         margin-top: 1rem;
+         padding: 0rem 1rem;
+         margin-bottom: 2rem;
+     
+     }
+     #tenth .general .inputh{
+        width: 100%;
+        margin-left: 0rem;
+     
+     }
+     #tenth .general input{
+       border-radius: 30px;
+     }
+
+     #tenth .general button{
+         right: 0;
+         top: .0rem;
+         padding: 1rem 2rem;
+     }
+     #tenth .general .icons{
+         margin-top: 3rem;
+     }
+     #tenth .general .icons i{
+         padding-left: 2rem;
+         font-size: 20px;
+     }
+
+     #eighth{
+        overflow: hidden;
+     }
+     footer .right{
+    text-align: center;
+     }
+     footer .left{
+        text-align: center;
+        margin-left: 5rem;
+         }
+         
 }
