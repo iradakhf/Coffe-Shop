@@ -95,6 +95,7 @@ header .general .third a{
     background-size: cover;
     background-position: center;
     padding: 18rem 0rem;
+    overflow: hidden;
   }
   #first h5{
     margin-bottom: 10px;
@@ -214,6 +215,9 @@ header .general .third{
     background-color: rgb(199, 161, 122);
     border-radius: 5rem;
 }
+#third{
+    overflow: hidden;
+}
 #third .general{
     padding-top: 5em;
 }
@@ -250,6 +254,9 @@ header .general .third{
 }
 #third .general2{
     margin-top: 3rem;
+}
+#fourth{
+    overflow: hidden;
 }
 #fourth .general{
     margin-top: 8rem;
@@ -326,6 +333,9 @@ header .general .third{
     margin-top: 1rem;
     font-size: 20px;
     font-weight: 400;
+}
+#fifth{
+    overflow: hidden;
 }
 #fifth .general{
     margin-top: 8rem;
@@ -428,6 +438,9 @@ header .general .third{
 #fifth .general2 .rightOpeningTime ul li{
     padding: 1rem .4rem;
     border-bottom: 1px solid rgb(229, 229, 229);
+}
+#sixth{
+    overflow: hidden;
 }
 #sixth .general{
     margin-top: 8rem;
@@ -574,6 +587,7 @@ header .general .third{
 }
 #seventh{
     background-color: rgb(246, 246, 246);
+    overflow: hidden;
 }
 #seventh .general{
     margin-top: 4rem;
@@ -655,6 +669,9 @@ header .general .third{
     color: rgb(31, 34, 38);
     text-transform: uppercase;
   }
+  #eighth{
+    overflow: hidden;
+  }
   #eighth .general{
     margin-top: 1rem;
     padding-top: 6rem;
@@ -714,6 +731,9 @@ header .general .third{
 #eighth .general2 .bx:hover .overlay .iconOnOverlay i{
     color: white;
     font-size: 40px;
+}
+#nineth{
+    overflow: hidden;
 }
 #nineth .general{
     margin-top: 1rem;
@@ -794,6 +814,7 @@ header .general .third{
    background-color: #f6f6f6;
    margin-top: 5rem;
    padding-bottom: 5rem;
+   overflow: hidden;
 
 }
 #tenth .general{
